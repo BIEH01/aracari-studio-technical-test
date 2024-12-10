@@ -1,4 +1,4 @@
-import { GradientBg } from "@/components/ui/gradient-bg";
+import { GradientBg } from "@/components/shared/GradientBg";
 
 export default function Home() {
 	return (
