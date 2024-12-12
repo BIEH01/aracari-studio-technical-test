@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import { Header } from "@/components/shared/Header";
+import "./globals.css";
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className="antialiased bg-base-gradient">
+			<body className="antialiased bg-base-gradient box-border p-0 m-0">
 				<Header />
 				{children}
 			</body>

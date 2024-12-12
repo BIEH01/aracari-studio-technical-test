@@ -15,9 +15,11 @@ const config: Config = {
 					"radial-gradient(circle, rgba(101, 43, 170, 0.6) 40%, rgba(101, 43, 170, 0.3) 60%, rgba(12, 16, 23, 1) 90%)",
 			},
 			backgroundColor: {
+				"sidebar-button-bg": "hsl(213.33deg 18.37% 9.61%)",
 				"base-gradient": "hsl(218 31% 7%)",
 			},
 			colors: {
+				"tertiary": "hsl(267.1deg 60.78% 90%)",
 				background: "hsl(var(--background))",
 				foreground: "hsl(var(--foreground))",
 				card: {
