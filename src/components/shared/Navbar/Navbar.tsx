@@ -2,15 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
-
-const tabs = [
-	{ name: "Inicio", href: "/" },
-	{ name: "Centro de ayuda", href: "/centro-de-ayuda" },
-	{ name: "Atención legal", href: "/atencion-legal" },
-	{ name: "Ventanilla virtual", href: "/ventanilla-virtual" },
-	{ name: "Capacitaciones", href: "/capacitaciones" },
-	{ name: "Abogados", href: "/abogados" },
-];
+import { tabs } from "@/data";
 
 export const Navbar = () => {
 	const pathname = usePathname();

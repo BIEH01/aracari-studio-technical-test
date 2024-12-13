@@ -43,12 +43,7 @@ export const Header = () => {
 					</div>
 				</div>
 			</nav>
-			{isOpen && (
-				<section>
-					<SideBar />
-					<div className="fixed z-20 w-screen h-screen bg-gray-600" />
-				</section>
-			)}
+			<SideBar open={isOpen} setOpen={setIsOpen} />
 		</header>
 	);
 };

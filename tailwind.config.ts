@@ -13,6 +13,8 @@ const config: Config = {
 			backgroundImage: {
 				"radial-gradient":
 					"radial-gradient(circle, rgba(101, 43, 170, 0.6) 40%, rgba(101, 43, 170, 0.3) 60%, rgba(12, 16, 23, 1) 90%)",
+				"linear-gradient":
+					"linear-gradient(268.66deg, #CEB4E9 16.75%, rgba(113, 52, 177, 0) 219.67%)",
 			},
 			backgroundColor: {
 				"sidebar-button-bg": "hsl(213.33deg 18.37% 9.61%)",
@@ -20,6 +22,8 @@ const config: Config = {
 			},
 			colors: {
 				"tertiary": "hsl(267.1deg 60.78% 90%)",
+				"quaternary": "hsl(266.47deg 14.41% 53.73%)",
+				"quinary": "hsl(0deg 0% 12.65%)",
 				background: "hsl(var(--background))",
 				foreground: "hsl(var(--foreground))",
 				card: {
