@@ -44,6 +44,9 @@ export const Header = () => {
 				</div>
 			</nav>
 			<SideBar open={isOpen} setOpen={setIsOpen} />
+			{isOpen && (
+				<div className="lg:hidden bg-gray-500 opacity-100 h-screen w-full z-20" />
+			)}
 		</header>
 	);
 };
