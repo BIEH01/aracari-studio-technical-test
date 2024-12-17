@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Header } from "@/components/shared/Header";
+import { Hero } from "@/components/shared/Hero";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -13,9 +14,10 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
-			<body className="antialiased bg-base-gradient box-border p-0 m-0">
+		<html lang="es">
+			<body className="bg-base-gradient box-border p-0 m-0">
 				<Header />
+				<Hero />
 				{children}
 			</body>
 		</html>
