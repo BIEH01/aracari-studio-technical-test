@@ -8,7 +8,7 @@ export const Navbar = () => {
 	const pathname = usePathname();
 
 	return (
-		<ul className="space-x-10 lg:mr-4 flex justify-center items-center">
+		<ul className="space-x-10 lg:pr-4 flex justify-center items-center">
 			{tabs.map((tab) => (
 				<Link
 					key={tab.href}

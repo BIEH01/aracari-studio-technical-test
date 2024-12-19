@@ -7,8 +7,8 @@ export const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<header className="bg-base-gradient z-30 w-screen h-auto">
-			<nav className="px-4 md:px-16 md:w-full md:py-7 h-14 md:h-24 relative">
+		<header className="bg-base-gradient z-30 w-screen h-auto fixed top-0">
+			<nav className="px-4 md:px-16 md:py-7 h-14 md:h-24 relative">
 				<div className="mx-auto flex justify-between items-center">
 					<h2 className="text-white pb-2 text-lg md:pl-4 md:py-0 md:pb-4 text-center">
 						Igualítika
@@ -45,7 +45,7 @@ export const Header = () => {
 			</nav>
 			<SideBar open={isOpen} setOpen={setIsOpen} />
 			{isOpen && (
-				<div className="lg:hidden bg-gray-500 opacity-100 h-screen w-full z-20" />
+				<div className="lg:hidden absolute backdrop-blur-sm bg-sidebar-button-bg bg-opacity-70 h-screen w-full z-20" />
 			)}
 		</header>
 	);

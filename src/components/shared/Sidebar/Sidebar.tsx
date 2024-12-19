@@ -4,12 +4,7 @@ import { usePathname } from "next/navigation";
 import { tabs } from "@/data";
 import clsx from "clsx";
 
-type TypeProps = {
-	open: boolean;
-	setOpen: React.Dispatch<React.SetStateAction<boolean>>;
-};
-
-export const SideBar = ({ open, setOpen }: TypeProps) => {
+export const SideBar = ({ open, setOpen }: StateTypeProps) => {
 	const pathname = usePathname();
 
 	return (

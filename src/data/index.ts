@@ -25,13 +25,14 @@ export const heroData = [
 		title: "Consulta un abogadx",
 		subtitle: "Un proceso simple y humano para brindarte apoyo legal.",
 		callToAction: "¡Hablemos!",
-		littleText: "30 minutos gratis.",
+		smallText: "30 minutos gratis.",
 	},
 	{
 		id: tabs[3].href,
 		title: "Ventanilla Virtual",
 		subtitle: "Tu centro de servicios legales",
-		littleText: "Dale seguimiento a tu trámite",
+		smallerText: "Dale seguimiento a tu trámite",
+		form: ["Número de seguimiento", "DUI"],
 		callToAction: "Buscar",
 	},
 	{
