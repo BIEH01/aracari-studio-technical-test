@@ -48,3 +48,50 @@ export const heroData = [
 		callToAction: "Regístrate",
 	},
 ];
+
+export const legalCardData = [
+	{
+		id: 1,
+		title: "Consulta gratis",
+		context: [
+			{
+				id: 1,
+				subtitle: "30 minutos gratis",
+				text: "Tu primer consulta no tiene costo.",
+			},
+			{
+				id: 2,
+				subtitle: "Queremos ayudarte",
+				text: "Cuéntanos tus necesidades.",
+			},
+			{
+				id: 3,
+				subtitle: "Atención inclusiva",
+				text: "Todxs son bienvenidxs.",
+			},
+		],
+		callToAction: "¡Hablemos gratis!",
+	},
+	{
+		id: 2,
+		title: "Igualitika+",
+		context: [
+			{
+				id: 1,
+				subtitle: "¿No encuentras lo que necesitas?",
+				text: "Brindados más detalles.",
+			},
+			{
+				id: 2,
+				subtitle: "Planificación y estrategia",
+				text: "Diseñamos un plan a tu medida.",
+			},
+			{
+				id: 3,
+				subtitle: "$45 USD",
+				text: "Tarifa transparente. Sin sorpresas.",
+			},
+		],
+		callToAction: "¡Inicia tu trámite!",
+	},
+];

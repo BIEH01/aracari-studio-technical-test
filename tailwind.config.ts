@@ -10,18 +10,24 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
+			boxShadow: {
+				"extra-strong": "0 0 25px 6px rgba(0, 0, 0, 0.5)",
+			},
 			backgroundImage: {
+				"hero-image": "url('/images/aspect-ratio-bg.png')",
+				"button-gradient": "linear-gradient(to right, #6e578d, #ccb3e7)",
 				"radial-gradient":
 					"radial-gradient(circle, rgba(101, 43, 170, 0.6) 40%, rgba(101, 43, 170, 0.3) 60%, rgba(12, 16, 23, 1) 90%)",
 				"linear-gradient":
-					"linear-gradient(to right, #6e578d, #ccb3e7, #FFFFFF)",
-				"button-gradient": "linear-gradient(to right, #6e578d, #ccb3e7)",
-				"hero-image": "url('/images/aspect-ratio-bg.png')",
+					"linear-gradient(268.66deg, #CEB4E9 16.75%, rgba(113, 52, 177, 0) 219.67%)",
+				"card-bottom":
+					"linear-gradient(270deg, rgba(61, 66, 75, 0.4) 100%, rgba(36, 24, 64, 0) 0%)",
 			},
 			backgroundColor: {
 				"sidebar-button-bg": "hsl(213.33deg 18.37% 9.61%)",
 				"base-gradient": "hsl(218 31% 7%)",
 				"button-color": "hsl(213, 18%, 10%)",
+				"legal-card": "hsl(213, 18%, 10%)",
 			},
 			colors: {
 				"tertiary": "hsl(267.1deg 60.78% 90%)",

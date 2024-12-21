@@ -7,8 +7,8 @@ export const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<header className="bg-base-gradient z-30 w-screen h-auto fixed top-0">
-			<nav className="px-4 md:px-16 md:py-7 h-14 md:h-24 relative">
+		<header className="bg-base-gradient z-30 w-full h-auto fixed top-0">
+			<nav className="px-4 md:px-10 md:py-7 h-14 md:h-24 relative">
 				<div className="mx-auto flex justify-between items-center">
 					<h2 className="text-white pb-2 text-lg md:pl-4 md:py-0 md:pb-4 text-center">
 						Igualítika

@@ -9,7 +9,7 @@ export const Hero = () => {
 	const pathname = usePathname();
 
 	return (
-		<section className="mx-auto mt-20 mb-16 w-full lg:mt-32 lg:mb-16">
+		<section className="mx-auto mt-20 mb-16 w-full md:mt-28 lg:mt-32 lg:mb-16">
 			<div className="w-[85%] min-h-60 h-auto mx-auto bg-hero-image bg-no-repeat bg-center bg-cover rounded-2xl flex justify-center items-center lg:h-[440px] lg:w-[90%]">
 				{heroData.map((data) =>
 					pathname === data.id ? (
