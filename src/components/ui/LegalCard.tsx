@@ -7,7 +7,7 @@ export const LegalCard = (item: LegalCardType) => {
 				<h3 className="bg-linear-gradient bg-clip-text text-transparent text-3xl my-3 mx-auto text-center">
 					{item.title}
 				</h3>
-				<div className="w-full bg-card-bottom h-[1px]" />
+				<div className="mx-auto w-[90%] h-[2px] bg-gradient-to-r from-[#3d424b] to-transparent" />
 				{item.context.map((data: ContextLegalType) => (
 					<div key={data.id} className="mb-12 mt-5 ml-5 md:mt-8">
 						<div className="flex justify-start items-center text-[#F1ECF9CC]">

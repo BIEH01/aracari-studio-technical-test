@@ -21,7 +21,7 @@ export default function LegalPage() {
 							<LegalCard {...item} />
 						</div>
 					))}
-					<div className="bg-radial-gradient top-[1000px] w-[95%] h-96 blur-3xl -z-50 absolute sm:bottom-32 md:opacity-50 md:right-0 md:w-[600px] md:h-[500px] lg:-bottom-72 lg:w-[700px] lg:h-[900px]" />
+					<div className="bg-radial-gradient top-[1000px] w-[95%] h-96 blur-3xl -z-50 absolute sm:bottom-32 md:opacity-75 md:right-0 md:w-[600px] md:h-[500px] lg:top-[700px] lg:-bottom-72 lg:w-[700px] lg:h-[900px]" />
 				</div>
 			</section>
 		</main>

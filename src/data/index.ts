@@ -95,3 +95,47 @@ export const legalCardData = [
 		callToAction: "¡Inicia tu trámite!",
 	},
 ];
+
+export const socialMedia = [
+	{
+		id: 1,
+		name: "Facebook",
+		href: "/",
+		icon: "/assets/icons/facebook.svg",
+	},
+	{
+		id: 2,
+		name: "Instagram",
+		href: "/",
+		icon: "/assets/icons/instagram.svg",
+	},
+	{
+		id: 3,
+		name: "X",
+		href: "/",
+		icon: "/assets/icons/x.svg",
+	},
+];
+
+export const footerData = [
+	{
+		id: 1,
+		title: "Más sobre nosotros",
+		links: [
+			"¿Quiénes somos?",
+			"Roadmap del proyecto",
+			"Relaciones con inversionistas",
+			"Conoce a nuestro equipo",
+		],
+	},
+	{
+		id: 2,
+		title: "Legal",
+		links: [
+			"Términos y condiciones de uso",
+			"Uso ético de datos",
+			"Política de uso aceptable",
+			"Configuración de cookies",
+		],
+	},
+];
