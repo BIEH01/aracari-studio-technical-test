@@ -17,5 +17,14 @@ type LegalCardType = {
 	id: number;
 	title: string;
 	context: ContextLegalType[];
-	callToAction: string;
+	cta: string;
+};
+
+type TrainingCardType = {
+	id: number;
+	img: string;
+	title: string;
+	subtitle: string;
+	instructor: string;
+	price: string;
 };

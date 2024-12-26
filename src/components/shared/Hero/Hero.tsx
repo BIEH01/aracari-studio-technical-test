@@ -43,7 +43,7 @@ export const Hero = () => {
 								</div>
 							)}
 
-							{data.callToAction && <Button text={data.callToAction} />}
+							{data.cta && <Button text={data.cta} />}
 
 							{data.smallText && (
 								<p className="mx-auto pb-4 sm:ml-8 md:text-lg md:ml-7 lg:ml-14">

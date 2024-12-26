@@ -11,7 +11,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			boxShadow: {
-				"extra-strong": "0 0 25px 6px rgba(0, 0, 0, 0.5)",
+				"extra-strong": "0 0 25px 8px rgba(0, 0, 0, 0.8)",
 			},
 			backgroundImage: {
 				"hero-image": "url('/images/aspect-ratio-bg.png')",
@@ -27,7 +27,7 @@ const config: Config = {
 				"sidebar-button-bg": "hsl(213.33deg 18.37% 9.61%)",
 				"base-gradient": "hsl(218 31% 7%)",
 				"button-color": "hsl(213, 18%, 10%)",
-				"legal-card": "hsl(213, 18%, 10%)",
+				"card-color": "hsl(213, 18%, 10%)",
 			},
 			colors: {
 				"tertiary": "hsl(267.1deg 60.78% 90%)",

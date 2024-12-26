@@ -16,9 +16,9 @@ export default function LegalPage() {
 			</section>
 			<section className="w-full h-auto">
 				<div className="w-auto h-auto md:flex md:flex-wrap md:justify-center md:items-center md:w-fit md:mx-auto">
-					{legalCardData.map((item) => (
-						<div key={item.id}>
-							<LegalCard {...item} />
+					{legalCardData.map((card) => (
+						<div key={card.id}>
+							<LegalCard {...card} />
 						</div>
 					))}
 					<div className="bg-radial-gradient top-[1000px] w-[95%] h-96 blur-3xl -z-50 absolute sm:bottom-32 md:opacity-75 md:right-0 md:w-[600px] md:h-[500px] lg:top-[700px] lg:-bottom-72 lg:w-[700px] lg:h-[900px]" />

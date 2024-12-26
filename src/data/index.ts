@@ -18,13 +18,13 @@ export const heroData = [
 		id: tabs[1].href,
 		title: "Explora nuestro centro de ayuda",
 		subtitle: "¿Necesitas resolver dudas legales?",
-		callToAction: "¡Habla con el asistente virtual!",
+		cta: "¡Habla con el asistente virtual!",
 	},
 	{
 		id: tabs[2].href,
 		title: "Consulta un abogadx",
 		subtitle: "Un proceso simple y humano para brindarte apoyo legal.",
-		callToAction: "¡Hablemos!",
+		cta: "¡Hablemos!",
 		smallText: "30 minutos gratis.",
 	},
 	{
@@ -33,7 +33,7 @@ export const heroData = [
 		subtitle: "Tu centro de servicios legales",
 		smallerText: "Dale seguimiento a tu trámite",
 		form: ["Número de seguimiento", "DUI"],
-		callToAction: "Buscar",
+		cta: "Buscar",
 	},
 	{
 		id: tabs[4].href,
@@ -45,7 +45,7 @@ export const heroData = [
 		title: "Únete a la Red de Inclusión Legal",
 		subtitle:
 			"Sigue estos simples pasos y conviértete en uno de los abogadxs de nuestra red",
-		callToAction: "Regístrate",
+		cta: "Regístrate",
 	},
 ];
 
@@ -70,7 +70,7 @@ export const legalCardData = [
 				text: "Todxs son bienvenidxs.",
 			},
 		],
-		callToAction: "¡Hablemos gratis!",
+		cta: "¡Hablemos gratis!",
 	},
 	{
 		id: 2,
@@ -92,7 +92,46 @@ export const legalCardData = [
 				text: "Tarifa transparente. Sin sorpresas.",
 			},
 		],
-		callToAction: "¡Inicia tu trámite!",
+		cta: "¡Inicia tu trámite!",
+	},
+];
+
+export const trainingCardData = [
+	{
+		id: 1,
+		img: "/images/training-card1.png",
+		title: "Como integrar la propiedad LGBTQI+ en el ambiente de trabajo",
+		subtitle:
+			"Potencia tu éxito laboral con nuestro curso LGBTQI+. Aprende sobre derechos, enfrenta la discriminación...",
+		instructor: "Pedro Bogo López",
+		price: "$45",
+	},
+	{
+		id: 2,
+		img: "/images/training-card2.png",
+		title: "Como integrar la propiedad LGBTQI+ en el ambiente de trabajo",
+		subtitle:
+			"Potencia tu éxito laboral con nuestro curso LGBTQI+. Aprende sobre derechos, enfrenta la discriminación...",
+		instructor: "Pedro Bogo López",
+		price: "$45",
+	},
+	{
+		id: 3,
+		img: "/images/training-card3.png",
+		title: "Como integrar la propiedad LGBTQI+ en el ambiente de trabajo",
+		subtitle:
+			"Potencia tu éxito laboral con nuestro curso LGBTQI+. Aprende sobre derechos, enfrenta la discriminación...",
+		instructor: "Pedro Bogo López",
+		price: "$45",
+	},
+	{
+		id: 4,
+		img: "/images/training-card4.png",
+		title: "Como integrar la propiedad LGBTQI+ en el ambiente de trabajo",
+		subtitle:
+			"Potencia tu éxito laboral con nuestro curso LGBTQI+. Aprende sobre derechos, enfrenta la discriminación...",
+		instructor: "Pedro Bogo López",
+		price: "$45",
 	},
 ];
 
