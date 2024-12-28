@@ -10,18 +10,14 @@ export const Hero = () => {
 
 	return (
 		<section className="mx-auto mt-20 mb-16 w-full md:mt-28 lg:mt-32 lg:mb-16">
-			<div className="w-[85%] min-h-60 h-auto mx-auto bg-hero-image bg-no-repeat bg-center bg-cover rounded-2xl flex justify-center items-center lg:h-[440px] lg:w-[90%]">
+			<div className="w-[85%] min-h-72 h-auto mx-auto bg-hero-image bg-no-repeat bg-center bg-cover rounded-2xl flex justify-center items-center lg:h-[440px] lg:w-[90%]">
 				{heroData.map((data) =>
 					pathname === data.id ? (
 						<div
 							key={data.id}
-							className={clsx(
-								pathname === "/abogados"
-									? "text-white space-y-1 w-[95%] pl-2 py-4 lg:pb-10 flex flex-col justify-center items-center h-72 sm:text-center"
-									: "text-white space-y-1 w-[95%] pl-2 py-4 lg:pb-10 flex flex-col justify-center items-start"
-							)}
+							className="text-white space-y-1 w-[95%] pl-2 py-4 lg:pb-10 flex flex-col justify-center md:items-center h-auto"
 						>
-							<h2 className="font-extrabold text-xl text-wrap md:text-2xl md:font-bold md:pt-10 lg:text-4xl lg:pb-6">
+							<h2 className="font-extrabold text-xl text-wrap text-start md:text-2xl md:font-bold md:pt-10 md:text-center lg:text-4xl lg:pb-6">
 								{data.title}
 							</h2>
 
@@ -40,15 +36,29 @@ export const Hero = () => {
 									<p className="text-sm text-start">{data.smallerText}</p>
 									<Input text={data.form[0]} />
 									<Input text={data.form[1]} />
+									<div className="mt-6 md:w-[50%] lg:w-[48%]">
+										<Button text={data.cta} />
+									</div>
 								</div>
 							)}
 
-							{data.cta && <Button text={data.cta} />}
+							{data.cta && (
+								<div
+									className={clsx(
+										pathname === "/centro-de-ayuda"
+											? "w-full max-w-[450px]"
+											: "min-w-44 w-auto md:w-96",
+										pathname === "/ventanilla-virtual"
+											? "hidden"
+											: "min-w-44 w-auto md:w-96"
+									)}
+								>
+									<Button text={data.cta} />
+								</div>
+							)}
 
 							{data.smallText && (
-								<p className="mx-auto pb-4 sm:ml-8 md:text-lg md:ml-7 lg:ml-14">
-									{data.smallText}
-								</p>
+								<p className="mx-auto pb-4 md:text-lg">{data.smallText}</p>
 							)}
 						</div>
 					) : (
