@@ -12,11 +12,11 @@ export const Hero = () => {
 	return (
 		<section className="mx-auto mt-20 mb-16 w-full md:mt-28 lg:mt-32 lg:mb-16">
 			<div className="w-[85%] min-h-72 h-auto mx-auto rounded-2xl flex justify-center items-center lg:h-[440px] lg:w-[90%] max-w-[1500px]">
-				<div className="w-fit h-fit absolute -z-50">
+				<div className="w-fit h-fit absolute -z-50 mt-14 md:mt-10 lg:mt-0">
 					<img
 						src="./images/aspect-ratio-bg.png"
 						alt=""
-						className="object-cover w-[50%] h-[40%] mx-auto rounded-2xl"
+						className="object-cover min-h-[350px] w-[90%] h-auto md:w-[600px] md:h-[300px] lg:w-[800px] lg:h-[400px] mx-auto rounded-2xl"
 					/>
 				</div>
 				{heroData.map((data) =>
