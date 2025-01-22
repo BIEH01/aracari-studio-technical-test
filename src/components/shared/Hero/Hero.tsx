@@ -3,14 +3,14 @@ import { usePathname } from "next/navigation";
 import { heroData } from "@/data";
 import { Button } from "@/components/ui/Button";
 import clsx from "clsx";
-import { Input } from "@/components/ui/Input";
+// import { Input } from "@/components/ui/Input";
 
 export const Hero = () => {
 	const pathname = usePathname();
 
 	return (
 		<section className="mx-auto mt-20 mb-16 w-full md:mt-28 lg:mt-32 lg:mb-16">
-			<div className="w-[85%] min-h-72 h-auto mx-auto bg-hero-image bg-no-repeat bg-center bg-cover rounded-2xl flex justify-center items-center lg:h-[440px] lg:w-[90%]">
+			<div className="w-[85%] min-h-72 h-auto mx-auto bg-hero-image bg-no-repeat bg-center bg-cover rounded-2xl flex justify-center items-center lg:h-[440px] lg:w-[90%] max-w-[1500px]">
 				{heroData.map((data) =>
 					pathname === data.id ? (
 						<div
@@ -31,7 +31,7 @@ export const Hero = () => {
 								{data.subtitle}
 							</h3>
 
-							{data.form && (
+							{/* {data.form && (
 								<div className="pb-3 w-full">
 									<p className="text-sm text-start">{data.smallerText}</p>
 									<Input text={data.form[0]} />
@@ -40,7 +40,7 @@ export const Hero = () => {
 										<Button text={data.cta} />
 									</div>
 								</div>
-							)}
+							)} */}
 
 							{data.cta && (
 								<div
