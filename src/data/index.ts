@@ -99,7 +99,7 @@ export const legalCardData = [
 export const trainingCardData = [
 	{
 		id: 1,
-		img: "/images/training-card1.png",
+		img: "./images/training-card1.png",
 		title: "Como integrar la propiedad LGBTQI+ en el ambiente de trabajo",
 		subtitle:
 			"Potencia tu éxito laboral con nuestro curso LGBTQI+. Aprende sobre derechos, enfrenta la discriminación...",
@@ -108,7 +108,7 @@ export const trainingCardData = [
 	},
 	{
 		id: 2,
-		img: "/images/training-card2.png",
+		img: "./images/training-card2.png",
 		title: "Como integrar la propiedad LGBTQI+ en el ambiente de trabajo",
 		subtitle:
 			"Potencia tu éxito laboral con nuestro curso LGBTQI+. Aprende sobre derechos, enfrenta la discriminación...",
@@ -117,7 +117,7 @@ export const trainingCardData = [
 	},
 	{
 		id: 3,
-		img: "/images/training-card3.png",
+		img: "./images/training-card3.png",
 		title: "Como integrar la propiedad LGBTQI+ en el ambiente de trabajo",
 		subtitle:
 			"Potencia tu éxito laboral con nuestro curso LGBTQI+. Aprende sobre derechos, enfrenta la discriminación...",
@@ -126,7 +126,7 @@ export const trainingCardData = [
 	},
 	{
 		id: 4,
-		img: "/images/training-card4.png",
+		img: "./images/training-card4.png",
 		title: "Como integrar la propiedad LGBTQI+ en el ambiente de trabajo",
 		subtitle:
 			"Potencia tu éxito laboral con nuestro curso LGBTQI+. Aprende sobre derechos, enfrenta la discriminación...",
@@ -140,19 +140,19 @@ export const socialMedia = [
 		id: 1,
 		name: "Facebook",
 		href: "/",
-		icon: "/assets/icons/facebook.svg",
+		icon: "./assets/icons/facebook.svg",
 	},
 	{
 		id: 2,
 		name: "Instagram",
 		href: "/",
-		icon: "/assets/icons/instagram.svg",
+		icon: "./assets/icons/instagram.svg",
 	},
 	{
 		id: 3,
 		name: "X",
 		href: "/",
-		icon: "/assets/icons/x.svg",
+		icon: "./assets/icons/x.svg",
 	},
 ];
 
