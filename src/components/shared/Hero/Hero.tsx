@@ -3,6 +3,7 @@ import { usePathname } from "next/navigation";
 import { heroData } from "@/data";
 import { Button } from "@/components/ui/Button";
 import clsx from "clsx";
+
 // import { Input } from "@/components/ui/Input";
 
 export const Hero = () => {
@@ -11,6 +12,13 @@ export const Hero = () => {
 	return (
 		<section className="mx-auto mt-20 mb-16 w-full md:mt-28 lg:mt-32 lg:mb-16">
 			<div className="w-[85%] min-h-72 h-auto mx-auto rounded-2xl flex justify-center items-center lg:h-[440px] lg:w-[90%] max-w-[1500px]">
+				<div className="w-fit h-fit absolute -z-50">
+					<img
+						src="/images/aspect-ratio-bg.png"
+						alt=""
+						className="object-cover w-[50%] h-[40%] mx-auto rounded-2xl"
+					/>
+				</div>
 				{heroData.map((data) =>
 					pathname === data.id ? (
 						<div

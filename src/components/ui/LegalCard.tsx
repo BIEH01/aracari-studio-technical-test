@@ -11,7 +11,7 @@ export const LegalCard = (card: LegalCardType) => {
 				{card.context.map((item: ContextLegalType) => (
 					<div key={item.id} className="mb-12 mt-5 ml-5 md:mt-8">
 						<div className="flex justify-start items-center text-[#F1ECF9CC]">
-							<img src="/assets/Frame.svg" alt="Check" />
+							<img src="./assets/Frame.svg" alt="Check" />
 							<p className="ml-2 text-lg">{item.subtitle}</p>
 						</div>
 						<p className="text-[#9DA4AF] text-base">{item.text}</p>
