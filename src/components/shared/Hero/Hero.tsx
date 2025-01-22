@@ -14,7 +14,7 @@ export const Hero = () => {
 			<div className="w-[85%] min-h-72 h-auto mx-auto rounded-2xl flex justify-center items-center lg:h-[440px] lg:w-[90%] max-w-[1500px]">
 				<div className="w-fit h-fit absolute -z-50">
 					<img
-						src="/images/aspect-ratio-bg.png"
+						src="./images/aspect-ratio-bg.png"
 						alt=""
 						className="object-cover w-[50%] h-[40%] mx-auto rounded-2xl"
 					/>
