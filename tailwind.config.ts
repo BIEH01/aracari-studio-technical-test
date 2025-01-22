@@ -14,7 +14,6 @@ const config: Config = {
 				"extra-strong": "0 0 25px 8px rgba(0, 0, 0, 0.8)",
 			},
 			backgroundImage: {
-				"hero-image": "url('public/images/aspect-ratio-bg.png')",
 				"button-gradient": "linear-gradient(to right, #6e578d, #ccb3e7)",
 				"radial-gradient":
 					"radial-gradient(circle, rgba(101, 43, 170, 0.6) 40%, rgba(101, 43, 170, 0.3) 60%, rgba(12, 16, 23, 1) 90%)",

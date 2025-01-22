@@ -10,7 +10,7 @@ export const Hero = () => {
 
 	return (
 		<section className="mx-auto mt-20 mb-16 w-full md:mt-28 lg:mt-32 lg:mb-16">
-			<div className="w-[85%] min-h-72 h-auto mx-auto bg-hero-image bg-no-repeat bg-center bg-cover rounded-2xl flex justify-center items-center lg:h-[440px] lg:w-[90%] max-w-[1500px]">
+			<div className="w-[85%] min-h-72 h-auto mx-auto rounded-2xl flex justify-center items-center lg:h-[440px] lg:w-[90%] max-w-[1500px]">
 				{heroData.map((data) =>
 					pathname === data.id ? (
 						<div
